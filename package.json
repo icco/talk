@@ -17,7 +17,9 @@
     "e2e": "NODE_ENV=test nightwatch",
     "poste2e": "NODE_ENV=test scripts/poste2e.sh",
     "embed-start": "NODE_ENV=development yarn build && ./bin/cli serve --jobs",
-    "heroku-postbuild": "./bin/cli plugins reconcile && yarn build"
+    "heroku-postbuild": "./bin/cli plugins reconcile && yarn build",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "talk": {
     "migration": {
@@ -91,7 +93,7 @@
     "immutability-helper": "^2.2.0",
     "inquirer": "^3.0.6",
     "joi": "^10.4.1",
-    "jsonwebtoken": "^7.3.0",
+    "jsonwebtoken": "^8.0.0",
     "jwt-decode": "^2.2.0",
     "kue": "^0.11.5",
     "linkify-it": "^2.0.3",
@@ -128,7 +130,8 @@
     "url-search-params": "^0.9.0",
     "uuid": "^3.0.1",
     "yaml-loader": "^0.4.0",
-    "yamljs": "^0.2.10"
+    "yamljs": "^0.2.10",
+    "snyk": "^1.83.0"
   },
   "devDependencies": {
     "apollo-client": "^1.0.4",
@@ -215,5 +218,6 @@
   },
   "engines": {
     "node": "^7.10.1"
-  }
+  },
+  "snyk": true
 }
