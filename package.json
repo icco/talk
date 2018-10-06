@@ -218,8 +218,7 @@
     "webpack-manifest-plugin": "^2.0.0-rc.2",
     "webpack-sources": "^1.0.1",
     "yaml-loader": "^0.4.0",
-    "yamljs": "^0.2.10",
-    "snyk": "^1.100.2"
+    "yamljs": "^0.2.10"
   },
   "devDependencies": {
     "@coralproject/eslint-config-talk": "^0.1.0",
@@ -249,6 +248,7 @@
     "selenium-standalone": "^6.15.0",
     "sinon": "^3.2.1",
     "sinon-chai": "^2.13.0",
+    "snyk": "^1.100.2",
     "yaml-lint": "^1.0.0"
   },
   "engines": {
