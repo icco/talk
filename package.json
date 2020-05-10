@@ -28,7 +28,9 @@
     "e2e:ci": "./scripts/e2e-ci.sh",
     "heroku-postbuild": "npm-run-all plugins:reconcile build",
     "precommit": "npm-run-all lint-staged",
-    "lint-staged": "lint-staged"
+    "lint-staged": "lint-staged",
+    "snyk-protect": "snyk protect",
+    "prepare": "yarn run snyk-protect"
   },
   "talk": {
     "migration": {
@@ -216,7 +218,8 @@
     "webpack-manifest-plugin": "^2.0.0-rc.2",
     "webpack-sources": "^1.0.1",
     "yaml-loader": "^0.4.0",
-    "yamljs": "^0.2.10"
+    "yamljs": "^0.2.10",
+    "snyk": "^1.319.2"
   },
   "devDependencies": {
     "@coralproject/eslint-config-talk": "^0.1.0",
@@ -229,7 +232,7 @@
     "chai": "^3.5.0",
     "chai-as-promised": "^6.0.0",
     "chai-datetime": "^1.5.0",
-    "chai-http": "^3.0.0",
+    "chai-http": "^4.0.0",
     "deep-sort-object": "^1.0.2",
     "enzyme": "^3.0.0",
     "enzyme-adapter-react-15": "^1.0.0",
@@ -239,10 +242,10 @@
     "identity-obj-proxy": "^3.0.0",
     "jest-junit": "^3.6.0",
     "lint-staged": "^7.2.0",
-    "mocha": "^3.1.2",
+    "mocha": "^6.2.3",
     "mocha-junit-reporter": "^1.12.1",
-    "nightwatch": "^0.9.21",
-    "nodemon": "^1.11.0",
+    "nightwatch": "^1.0.4",
+    "nodemon": "^2.0.3",
     "selenium-standalone": "^6.15.0",
     "sinon": "^3.2.1",
     "sinon-chai": "^2.13.0",
@@ -250,5 +253,6 @@
   },
   "engines": {
     "node": ">=8"
-  }
+  },
+  "snyk": true
 }

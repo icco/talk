@@ -1,0 +1,112 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - nightwatch > mocha-nightwatch > debug:
+        patched: '2020-05-10T07:38:36.953Z'
+  'npm:extend:20180424':
+    - selenium-standalone > request > extend:
+        patched: '2020-05-10T07:38:36.953Z'
+    - chai-http > superagent > extend:
+        patched: '2020-05-10T07:38:36.953Z'
+    - nightwatch > proxy-agent > extend:
+        patched: '2020-05-10T07:38:36.953Z'
+    - nightwatch > proxy-agent > agent-base > extend:
+        patched: '2020-05-10T07:38:36.953Z'
+    - nightwatch > proxy-agent > http-proxy-agent > extend:
+        patched: '2020-05-10T07:38:36.953Z'
+    - nightwatch > proxy-agent > https-proxy-agent > extend:
+        patched: '2020-05-10T07:38:36.953Z'
+    - nightwatch > proxy-agent > socks-proxy-agent > extend:
+        patched: '2020-05-10T07:38:36.953Z'
+    - nightwatch > proxy-agent > pac-proxy-agent > extend:
+        patched: '2020-05-10T07:38:36.953Z'
+    - nightwatch > proxy-agent > http-proxy-agent > agent-base > extend:
+        patched: '2020-05-10T07:38:36.953Z'
+    - nightwatch > proxy-agent > https-proxy-agent > agent-base > extend:
+        patched: '2020-05-10T07:38:36.953Z'
+    - nightwatch > proxy-agent > socks-proxy-agent > agent-base > extend:
+        patched: '2020-05-10T07:38:36.953Z'
+    - nightwatch > proxy-agent > pac-proxy-agent > agent-base > extend:
+        patched: '2020-05-10T07:38:36.953Z'
+    - nightwatch > proxy-agent > pac-proxy-agent > http-proxy-agent > extend:
+        patched: '2020-05-10T07:38:36.953Z'
+    - nightwatch > proxy-agent > pac-proxy-agent > https-proxy-agent > extend:
+        patched: '2020-05-10T07:38:36.953Z'
+    - nightwatch > proxy-agent > pac-proxy-agent > get-uri > extend:
+        patched: '2020-05-10T07:38:36.953Z'
+    - nightwatch > proxy-agent > pac-proxy-agent > socks-proxy-agent > extend:
+        patched: '2020-05-10T07:38:36.953Z'
+    - nightwatch > proxy-agent > pac-proxy-agent > http-proxy-agent > agent-base > extend:
+        patched: '2020-05-10T07:38:36.953Z'
+    - nightwatch > proxy-agent > pac-proxy-agent > https-proxy-agent > agent-base > extend:
+        patched: '2020-05-10T07:38:36.953Z'
+    - nightwatch > proxy-agent > pac-proxy-agent > socks-proxy-agent > agent-base > extend:
+        patched: '2020-05-10T07:38:36.953Z'
+  SNYK-JS-HTTPSPROXYAGENT-469131:
+    - browserstack-local > https-proxy-agent:
+        patched: '2020-05-10T07:38:36.953Z'
+  SNYK-JS-LODASH-567746:
+    - enzyme > lodash:
+        patched: '2020-05-10T07:38:36.953Z'
+    - enzyme-adapter-react-15 > lodash:
+        patched: '2020-05-10T07:38:36.953Z'
+    - eslint > lodash:
+        patched: '2020-05-10T07:38:36.953Z'
+    - lint-staged > lodash:
+        patched: '2020-05-10T07:38:36.953Z'
+    - selenium-standalone > lodash:
+        patched: '2020-05-10T07:38:36.953Z'
+    - babel-plugin-transform-es2015-modules-commonjs > babel-types > lodash:
+        patched: '2020-05-10T07:38:36.953Z'
+    - babel-plugin-transform-es2015-modules-commonjs > babel-template > lodash:
+        patched: '2020-05-10T07:38:36.953Z'
+    - selenium-standalone > async > lodash:
+        patched: '2020-05-10T07:38:36.953Z'
+    - enzyme > cheerio > lodash:
+        patched: '2020-05-10T07:38:36.953Z'
+    - enzyme-adapter-react-15 > enzyme-adapter-utils > lodash:
+        patched: '2020-05-10T07:38:36.953Z'
+    - eslint > inquirer > lodash:
+        patched: '2020-05-10T07:38:36.953Z'
+    - eslint > table > lodash:
+        patched: '2020-05-10T07:38:36.953Z'
+    - '@coralproject/eslint-config-talk > babel-eslint > @babel/traverse > lodash':
+        patched: '2020-05-10T07:38:36.953Z'
+    - babel-plugin-transform-es2015-modules-commonjs > babel-template > babel-types > lodash:
+        patched: '2020-05-10T07:38:36.953Z'
+    - babel-plugin-transform-es2015-modules-commonjs > babel-plugin-transform-strict-mode > babel-types > lodash:
+        patched: '2020-05-10T07:38:36.953Z'
+    - babel-plugin-transform-es2015-modules-commonjs > babel-template > babel-traverse > lodash:
+        patched: '2020-05-10T07:38:36.953Z'
+    - '@coralproject/eslint-config-talk > babel-eslint > @babel/traverse > @babel/generator > lodash':
+        patched: '2020-05-10T07:38:36.953Z'
+    - babel-plugin-transform-es2015-modules-commonjs > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-05-10T07:38:36.953Z'
+    - babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-types > lodash:
+        patched: '2020-05-10T07:38:36.953Z'
+    - babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-generator > lodash:
+        patched: '2020-05-10T07:38:36.953Z'
+    - babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-traverse > lodash:
+        patched: '2020-05-10T07:38:36.953Z'
+    - babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-template > lodash:
+        patched: '2020-05-10T07:38:36.953Z'
+    - '@coralproject/eslint-config-talk > babel-eslint > @babel/traverse > @babel/helper-function-name > @babel/template > lodash':
+        patched: '2020-05-10T07:38:36.953Z'
+    - babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-generator > babel-types > lodash:
+        patched: '2020-05-10T07:38:36.953Z'
+    - babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-traverse > babel-types > lodash:
+        patched: '2020-05-10T07:38:36.953Z'
+    - babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-template > babel-types > lodash:
+        patched: '2020-05-10T07:38:36.953Z'
+    - babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-template > babel-traverse > lodash:
+        patched: '2020-05-10T07:38:36.953Z'
+    - '@coralproject/eslint-config-talk > babel-eslint > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash':
+        patched: '2020-05-10T07:38:36.953Z'
+    - babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-05-10T07:38:36.953Z'
+  'npm:ms:20170412':
+    - nightwatch > mocha-nightwatch > debug > ms:
+        patched: '2020-05-10T07:38:36.953Z'
