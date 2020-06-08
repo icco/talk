@@ -60,7 +60,7 @@
     "@coralproject/graphql-anywhere-optimized": "^0.1.0",
     "apollo-client": "^1.9.1",
     "apollo-engine": "^0.8.1",
-    "apollo-server-express": "^1.2.0",
+    "apollo-server-express": "^2.1.0",
     "apollo-utilities": "^1.0.3",
     "app-module-path": "^2.2.0",
     "autoprefixer": "^6.5.2",
