@@ -156,7 +156,7 @@
     "murmurhash-js": "^1.0.0",
     "name-all-modules-plugin": "^1.0.1",
     "node-emoji": "^1.8.1",
-    "node-fetch": "^1.7.2",
+    "node-fetch": "^2.6.1",
     "nodemailer": "^2.6.4",
     "npm-run-all": "^4.1.2",
     "nunjucks": "^3.1.3",
