@@ -151,7 +151,7 @@
     "metascraper-title": "^3.9.2",
     "minimist": "^1.2.0",
     "moment": "^2.18.1",
-    "mongoose": "^5.2.1",
+    "mongoose": "^5.12.2",
     "ms": "^2.0.0",
     "murmurhash-js": "^1.0.0",
     "name-all-modules-plugin": "^1.0.1",
